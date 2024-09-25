@@ -1,0 +1,496 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.flex-container {
+  margin: 60px auto;
+  max-width: 800px;
+  justify-content: center;
+}
+.container {
+  gap: 20px;
+}
+
+.intro {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.logo {
+  max-width: 150px;
+}
+nav {
+  padding: 20px 0;
+  text-align: right;
+  color: black;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+nav a {
+  text-align: right;
+  text-decoration: none;
+  color: black;
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover {
+  color: var(--primary-color);
+}
+nav li.active a {
+  color: var(--primary-color);
+}
+
+.more {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.intro {
+  background-color: var(--secondary-color);
+  padding-bottom: 60px;
+  padding-top: 120px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.intro h1 {
+  display: block;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 34px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.intro h2 {
+  text-align: center;
+  margin: 0;
+  display: block;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 72px;
+  margin-bottom: 60px;
+}
+
+.intro h3 {
+  text-align: center;
+  margin: 0;
+  opacity: 0.7;
+  font-size: 20px;
+}
+.navigation-link {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-link a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-weight: bold;
+}
+.contact {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.contact-link:hover {
+  color: black;
+}
+.project {
+  text-align: center;
+  padding-bottom: 50px;
+  background: none;
+  font-size: 19px;
+  font-weight: medium;
+  font-family: "Playfair Display", serif;
+}
+
+.more {
+  background: white;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  text-decoration: none;
+  text-align: center;
+  font-weight: 30px;
+  border-radius: 6px;
+  padding: 20px;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.more:hover {
+  color: black;
+}
+
+.mb-3 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.contact-li {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-weight: bold;
+}
+.contact {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.contact-li {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  margin: 0;
+  margin-bottom: 0;
+}
+.contact-li:hover {
+  color: black;
+}
+footer {
+  padding-top: 50px;
+  margin: 62px 0;
+}
+
+.email-li {
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  padding-top: 40px;
+}
+.email-li:hover {
+  color: var(--primary-color);
+}
+.text-muted {
+  background: none;
+}
+.socials a {
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-size: 20px;
+  margin: 0px 20px;
+  transition: all 150ms ease-in-out;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+.socials a:hover {
+  color: #f5f2fe;
+  background: var(--primary-color);
+}
+.quiry-box {
+  margin-top: 80px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-top: 60px;
+  text-align: center;
+  background-color: var(--secondary-color);
+}
+.quiry-box h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 45px;
+  padding-top: 0px;
+  margin-top: -20px;
+  padding-left: 30px;
+  text-align: center;
+}
+.quiry-box a {
+  margin-right: 0;
+  margin-top: 50%;
+  margin-bottom: 0;
+  margin-right: 200px;
+}
+
+.quiry-box p {
+  text-align: center;
+}
+.coder {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  padding-top: 40px;
+  background: none;
+  font-size: 17px;
+  font-weight: medium;
+}
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.flex-container {
+  margin: 60px auto;
+  max-width: 1000px;
+  justify-content: center;
+  margin-top: 0px;
+}
+.flex-container h1 {
+  font-size: 55px;
+}
+.flex-container h2 {
+  font-size: 55px;
+}
+
+.flex-container h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container nav {
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+.img-fluid {
+  padding-top: 60px;
+  border-radius: 10px;
+}
+
+.mb-5 {
+  font-size: 17px;
+  background-color: transparent;
+  padding-bottom: 10px;
+}
+.row h2 {
+  font-weight: bold;
+  font-size: 65px;
+  font-family: "Playfair Display", serif;
+  padding-top: 60px;
+  padding-bottom: 5px;
+}
+
+.row h1 {
+  font-weight: bold;
+  font-size: 65px;
+  font-family: "Playfair Display", serif;
+}
+.navigation-link {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-link a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about {
+  font-family: "Playfair Display", serif;
+  font-size: 65px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.music h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.music h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 60px;
+  opacity: 0.7;
+}
+.music {
+  margin-right: 30px;
+}
+
+.workshop {
+  padding-left: 20px;
+}
+.workshop h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.workshop h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 60px;
+  opacity: 0.7;
+}
+
+.weather h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.weather h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 60px;
+  opacity: 0.7;
+}
+
+.weather1 h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.weather1 h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 60px;
+  opacity: 0.7;
+}
+.launch {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  margin-left: 40px;
+  justify-content: center;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+.launch:hover {
+  color: black;
+}
+
+@media (max-width: 576px) {
+  .container-fluid {
+    text-align: center;
+  }
+  .flex-container {
+    text-align: center;
+    display: inline;
+  }
+  .col-lg-6 {
+    text-align: center;
+  }
+
+  .primary-link {
+    display: block;
+    padding: 25px 20px;
+  }
+  .intro h1 {
+    font-size: 45px;
+  }
+  .intro h2 {
+    font-size: 35px;
+  }
+  .intro h3 {
+    font-size: 25px;
+  }
+  .intro {
+    text-align: center;
+    margin: 0;
+  }
+
+  @media (max-width: 576px) {
+    .container {
+      text-align: center;
+    }
+  }
+
+  .quiry-box h4 {
+    display: none;
+  }
+  .we {
+    display: none;
+  }
+  .contact-li {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .quiry-box {
+    display: none;
+  }
+  .about {
+    font-size: 25px;
+  }
+}

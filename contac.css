@@ -1,0 +1,237 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.flex-container {
+  margin: 60px auto;
+  max-width: 850px;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.contact {
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.logo {
+  max-width: 150px;
+}
+nav {
+  padding: 20px 0;
+  text-align: right;
+  color: black;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+nav a {
+  text-align: right;
+  text-decoration: none;
+  color: black;
+  transition: all 150ms ease-in-out;
+}
+nav li.active a {
+  color: var(--primary-color);
+}
+
+nav a:hover {
+  color: var(--primary-color);
+}
+
+.T {
+  font-family: "Playfair Display", serif;
+  margin-top: 40px;
+  font-weight: 600;
+}
+a {
+  font-size: 16px;
+  font-weight: 600;
+}
+.I {
+  font-family: "Playfair Display", serif;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.E {
+  font-family: "Playfair Display", serif;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.col-md-8 {
+  margin-top: 50px;
+  padding-right: 0px;
+  margin-right: 0;
+  padding-left: 10px;
+}
+.col-md-4 {
+  padding-top: 0px;
+  margin-left: 0px;
+}
+.mb-3 {
+  padding-left: 0px;
+  margin-left: 5px;
+  margin-top: 40px;
+}
+.btn-bd-primary {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  border-color: #f5f2fe;
+  border: #f5f2fe;
+  border-radius: 5px;
+  padding: 15px 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.btn-bd-primary:hover {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  border: var(--primary-color);
+}
+
+.contact-li:hover {
+  color: black;
+}
+footer {
+  padding-top: 50px;
+  margin: 62px 0;
+}
+
+.contact-li {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-weight: bold;
+}
+.contact-li {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  margin: 0;
+  margin-bottom: 0;
+}
+.contact-li:hover {
+  color: black;
+}
+
+.email-li {
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  padding-top: 40px;
+}
+.email-li:hover {
+  color: var(--primary-color);
+}
+.text-muted {
+  background: none;
+}
+.socials a {
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-size: 20px;
+  margin: 0px 20px;
+  transition: all 150ms ease-in-out;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+.socials a:hover {
+  color: #f5f2fe;
+  background: var(--primary-color);
+}
+.quiry-box {
+  margin-top: 80px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-top: 60px;
+  text-align: center;
+  background-color: var(--secondary-color);
+}
+.quiry-box h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 45px;
+  padding-top: 0px;
+  margin-top: -20px;
+  padding-left: 30px;
+  text-align: center;
+}
+.quiry-box a {
+  margin-right: 0;
+  margin-top: 50%;
+  margin-bottom: 0;
+  margin-right: 200px;
+}
+
+.quiry-box p {
+  text-align: center;
+}
+.coder {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  padding-top: 40px;
+  background: none;
+  font-size: 17px;
+  font-weight: medium;
+}
+@media (max-width: 576px) {
+  .container {
+    text-align: center;
+  }
+  .logo {
+    display: none;
+  }
+  .quiry-box h4 {
+    display: none;
+  }
+  .we {
+    display: none;
+  }
+  .contact-li {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .quiry-box {
+    display: none;
+  }
+  .col-md-8 {
+    text-align: center;
+  }
+  .col-md-4 {
+    text-align: center;
+  }
+}
+@media (min-width: 567px) {
+  .container {
+    text-align: center;
+  }
+}
