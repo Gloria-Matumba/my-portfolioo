@@ -229,6 +229,18 @@ footer {
   .col-md-4 {
     text-align: center;
   }
+
+  .quiry-box {
+    display: none;
+    background: none;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .email-li {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
 }
 @media (min-width: 567px) {
   .container {

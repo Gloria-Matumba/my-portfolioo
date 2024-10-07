@@ -469,14 +469,26 @@ footer {
     margin: 0;
   }
 
-  @media (max-width: 576px) {
-    .container {
-      text-align: center;
-    }
+  .container {
+    text-align: center;
   }
 
   .quiry-box h4 {
     display: none;
+    background: none;
+    margin-top: 10px;
+  }
+
+  .quiry-box {
+    display: none;
+    background: none;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .email-li {
+    margin-top: 0px;
+    padding-top: 0px;
   }
   .we {
     display: none;
@@ -487,10 +499,15 @@ footer {
   .logo {
     display: none;
   }
-  .quiry-box {
-    display: none;
-  }
+
   .about {
     font-size: 25px;
+  }
+}
+@media (min-width: 576px) {
+  .quiry-box {
+    text-align: center;
+    background-color: var(--secondary-color);
+    display: none;
   }
 }
